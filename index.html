@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <header class="pokeNavBar row align-items-center">
+                    <div class="col-6">
+                        <a class="toggle-sidebar"><i class="fa fa-bars"></i></a>
+                        <h1>Poke App</h1>
+                    </div>
+                    <div class="col-6 row align-items-center">
+                        <div class="col-6 input-group">
+                            <input type="text" class="form-control" placeholder="Buscar..." aria-label="Buscar"
+                                aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-6 user-icon">
+                            <a class="link-profile"><img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png"></a>
+                        </div>
+
+                    </div>
+                </header>
+            </div>
+        </div>
+        <div class="row body-content">
+            <aside class="col-3 left-aside">
+                <div class="aside-header">
+                    <div class="user-image">
+                        <img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png">
+                    </div>
+                    <div class="user-info">
+                        <h3>Nombre Usuario</h3>
+                    </div>
+                </div>
+                <div class="aside-body">
+                    <ul class="nav flex-column main-menu">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#/">
+                                <i class="fa fa-tachometer" aria-hidden="true"></i>
+                                <span>Inicio</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#/collections">
+                                <i class="fa fa-book" aria-hidden="true"></i>
+                                <span>Colección</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <span>Favoritos</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fa fa-power-off" aria-hidden="true"></i>
+                                <span>Salir</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="col-9 main-section">
+                <div class="content" id="viewContent">
+
+                </div>
+            </div>
+        </div>
+    </div>    
+    
+</body>
+</html>

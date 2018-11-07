@@ -1,0 +1,37 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a>Inicio</a>
+        </li>
+        <li class="breadcrumb-item active">
+            <a>Libro</a>
+        </li>
+    </ol>
+</nav>
+
+<div id="book" class="book">
+
+</div>
+
+<script id="templateBook" type="text/ractive">
+    <div class="row">
+        <div class="col-12">
+            <h1>{{title}}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 self-align-center">
+            <p>
+                {{publisher}}
+            </p>
+            <p>
+                {{publishedDate}}
+            </p>
+        </div>
+        <div class="col-6">
+            <div class="book-image">
+                <img src={{imageLinks.smallThumbnail}} >
+            </div>
+        </div>
+    </div>
+</script>

@@ -1,0 +1,77 @@
+:root {
+    --main-style-color: rgba(202, 86, 86, 0.8);
+    --main-shadow-color: rgba(0, 0, 0, .4);
+    --header-back-color: rgba(215, 219, 224, 1);
+    --main-title-color: rgba(255, 255, 255, 1);
+    --input-border-color: rgba(237, 238, 239, 1);
+    --button-border-color: rgba(83, 156, 252, 1);
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+header.pokeNavBar {
+    height: 50px;
+    background-color: var(--main-style-color);
+    
+}
+
+header.pokeNavBar .toggle-sidebar, h1 {
+    color: white
+}
+
+header.pokeNavBar  h1 {
+    font-size: 1.4em;
+    display: inline-block;
+}
+
+a.link-profile img {
+    width: 40px;
+    border-radius: 50px
+}
+
+.body-content {
+    height: 100%;
+}
+
+div.user-image > img {
+    width: 80px;
+    border-radius: 50px;
+}
+
+aside.col-3 {    
+    box-shadow: 1px 0 2px var(--main-shadow-color);
+    padding: 0;
+}
+
+
+aside .aside-header{
+    background-color: var(--header-back-color);
+    padding: 16px 10px;
+}
+
+aside.aside-close {
+    flex: 0 0 50px;
+}
+
+aside.aside-close .user-info {
+    display: none;
+}
+
+aside.aside-close .user-image > img {
+    width: 30px;
+    height: 30px;
+}
+
+aside.aside-close  span {
+    display: none;
+}
+
+.book h1 {
+    color:var(--main-shadow-color);
+}
+
+.book .book-image img {
+    width: 400px;
+}
