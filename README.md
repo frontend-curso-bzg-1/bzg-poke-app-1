@@ -1,6 +1,6 @@
-#BZG Poke App 1
+# BZG Poke App 1
 
-##Install
+## Install
 
 Install the Dependecies  and Dev Dependecies:
 
@@ -8,7 +8,7 @@ Install the Dependecies  and Dev Dependecies:
 $ cd bzg-poke-app-1
 $ npm install
 ```
-##Run the App
+## Run the App
 
 ```sh
 $ cd bzg-poke-app-1
